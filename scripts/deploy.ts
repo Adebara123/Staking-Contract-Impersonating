@@ -29,10 +29,10 @@ async function main() {
   console.log(impersonatedSigner)
 
 
- const transferToStake =await token.transferOut(stakeAddress, "1000000000000000000000");
+ const transferToStake =await token.transferOut(stakeAddress, "10000000000000000000000");
  console.log(transferToStake)
 
- const transferToAddress = await token.transferOut(stakeAddress, "10000000000000000000");
+ const transferToAddress = await token.transferOut(stakeAddress, "100000000000000000000");
  console.log(transferToAddress);
 
  // Stake 
